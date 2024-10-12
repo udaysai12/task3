@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#score {
+    font-size: 24px;
+    margin: 10px;
+}
+
+#controls {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+}

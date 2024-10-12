@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake raja</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <h1>Nagula chavithi</h1>
+    <div id="score">Score: 0</div>
+    <div id="controls">
+        <button onclick="changeDirection({ code: 'ArrowUp' })">Up</button>
+        <button onclick="changeDirection({ code: 'ArrowLeft' })">Left</button>
+        <button onclick="changeDirection({ code: 'ArrowDown' })">Down</button>
+        <button onclick="changeDirection({ code: 'ArrowRight' })">Right</button>
+        <button id="restartButton" onclick="restartGame()" style="display:none;">Restart</button>
+    </div>
+    <canvas id="board"></canvas>
+    <script src="snake.js"></script>
+</body>
+</html>
